@@ -1,0 +1,39 @@
+.cardsBox{
+     display: flex;
+     justify-content: space-around;
+     padding: 40px;
+     
+} 
+
+.cards{
+    display: grid;
+    grid-template-columns: 180px;
+    grid-template-rows: 180px 40px 40;
+    padding: 1%;
+    grid-row: 1;  
+    background-color: rgb(41, 41, 41);
+    justify-items: center;    
+    border-radius: 8px;    
+}
+
+.imgCard{    
+    grid-column: 1/2;    
+    height: 184px;
+    width: 184px;    
+}
+
+
+.textCard{    
+    grid-row: 2/3;    
+    text-align: justify;       
+    padding: 6px;
+    color: antiquewhite;
+   
+}
+
+.valeurCard{
+    
+    grid-row: 3/4;
+    padding: 6px;
+    color: antiquewhite;
+}

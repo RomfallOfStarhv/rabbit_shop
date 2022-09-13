@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outil VIA</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/carrousel.css">
+    <link rel="stylesheet" href="./assets/css/cards.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap" rel="stylesheet">
+
+
+    <script src="./assets/js/index.js" defer></script>
+    <script src="./assets/js/carrousel.js" defer></script>
+
+</head>
+
+<body>
+    <nav>
+        <div class="logoAndName">
+            <div id="logo"></div>
+            <p id="logoName">RABBIT SHOP</p>
+        </div>
+        <ul class="navList">
+            <li>
+                <p class="navText">Accueil</p>
+            </li>
+            <li>
+                <p class="navText">Boutique</p>
+            </li>
+            <li>
+                <p class="navText">Contact</p>
+            </li>
+        </ul>
+    </nav>
+
+
+    <div id="sliderBox">
+        <img src="./assets/img//patternsCaroussel/pattern1.jpg" alt="" id="slide">
+        <div id="precedent" onclick="ChangeSlide(-1)"></div>
+            <div id="suivant" onclick="ChangeSlide(1)"></div>
+        <div id="titreBox"><h1 id="titre">RABBIT SHOP</h1></div>
+    </div>
+
+    <!-- <div id="titreCadre">
+            <h1 id="titre">RABBIT SHOP</h1>
+        </div> -->
+
+
+    <div class="cardsBox">
+
+        <div class="cards" id="c1">
+            <img src="./assets/img/portraitCards/Falkina.jpg" alt="portrait1" class="imgCard" id="">
+            <p class="textCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, ipsum.</p>
+            <p class="valeurCard">12 PV</p>
+        </div>
+
+        <div class="cards" id="c2">
+            <img src="./assets/img/portraitCards/Berthold.jpg" alt="portrait2" class="imgCard" id="c2">
+            <p class="textCard">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, quam.</p>
+            <p class="valeurCard">15 PV</p>
+        </div>
+
+        <div class="cards" id="c3">
+            <img src="./assets/img//portraitCards/Brunhild.jpg" alt="portrait3" class="imgCard" id="c3">
+            <p class="textCard">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, quam.</p>
+            <p class="valeurCard"> 19PV</p>
+        </div>
+
+        <div class="cards" id="c4">
+            <img src="./assets/img/portraitCards/Gazok.jpg" alt="portrait4" class="imgCard" id="c4">
+            <p class="textCard">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, quam.</p>
+            <p class="valeurCard">24PV</p>
+        </div>
+
+    </div>
+
+    <footer></footer>
+
+</body>
+
+</html>

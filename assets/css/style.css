@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {   
+    background-color: black;
+    width: 100%;
+
+}
+
+/************************NAV***************************/
+nav {
+    position: -webkit-sticky;
+    z-index: 100;
+    width: 100%;
+    background-color: rgb(29, 29, 29);
+    display: grid;
+    padding: 6px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 86px;    
+}
+
+.navList {
+    grid-column: 2/3;
+    grid-row: 1;
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+    margin-right: 2%;
+    
+}
+
+.logoAndName {
+    display: flex;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1;
+    align-items: center;
+}
+
+#logoName {
+    padding-left: 8px;
+}
+
+#logo {
+    background-image: url("../img/logos/logoRabbitSmallDefault.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+}
+
+#logo:hover {
+    background-image: url("../img/logos/logoRabbitSmallGreen.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+}
+
+#logoName {
+    font-family: 'Schoolbell', cursive;
+    font-size: 20px;
+    color: rgb(182, 182, 182);
+}
+
+.navText {
+    margin-left: 14px;
+    margin-right: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    color: antiquewhite;
+}
+
+
+/*************************CARDSBOX***************************/
+
+.cardsbox{
+    height:1000px
+}
