@@ -14,6 +14,8 @@
     background-color: rgb(41, 41, 41);
     justify-items: center;    
     border-radius: 8px;    
+    border-top: 5px solid rgb(22, 22, 22);
+    border-right: 5px solid rgb(22, 22, 22);
 }
 
 .imgCard{    
@@ -28,6 +30,7 @@
     text-align: justify;       
     padding: 6px;
     color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
 }
 
@@ -36,4 +39,19 @@
     grid-row: 3/4;
     padding: 6px;
     color: antiquewhite;
+}
+
+#autresCartes{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: smaller;
+    text-align: end;
+    padding-right: 7%;
+    color: antiquewhite;
+    padding-bottom: 3%;
+    
+}
+
+#autresCartes:hover{
+    text-decoration: underline;
 }

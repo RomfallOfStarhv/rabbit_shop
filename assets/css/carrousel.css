@@ -12,21 +12,30 @@
     height: auto;
     background-repeat: repeat;
     background-size: cover;
+    opacity: 50%;
 }
 
 #titreBox{       
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     color: antiquewhite;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;       
     grid-column: 1/2;
     grid-row: 1/2;    
-}
-#titre{
+    z-index: 99;
     
 }
-
+#titre{
+    font-size: 50px;
+    font-weight: lighter;
+    
+}
+#titreCommentaire{
+    font-family: 'Schoolbell', cursive;
+    font-weight: lighter;
+}
 
 #precedent,
 #suivant{

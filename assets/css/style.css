@@ -10,7 +10,7 @@ body {
 }
 
 /************************NAV***************************/
-nav {
+/* nav {
     position: -webkit-sticky;
     z-index: 100;
     width: 100%;
@@ -19,6 +19,8 @@ nav {
     padding: 6px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 86px;    
+    border-bottom: 4px solid rgb(92, 184, 0);
+    
 }
 
 .navList {
@@ -78,11 +80,27 @@ li {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: larger;
     color: antiquewhite;
-}
+} */
 
 
 /*************************CARDSBOX***************************/
 
 .cardsbox{
     height:1000px
+}
+
+footer{
+    background-color: rgb(31, 31, 31);
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 50%;
+}
+
+.textFooter{
+    color: azure;    
+    margin: 6px;
 }

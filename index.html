@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Outil VIA</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/nav.css">
     <link rel="stylesheet" href="./assets/css/carrousel.css">
     <link rel="stylesheet" href="./assets/css/cards.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,18 +23,18 @@
 <body>
     <nav>
         <div class="logoAndName">
-            <div id="logo"></div>
+            <a href="#accueil" class="liensClasse"><div id="logo"></div></a>
             <p id="logoName">RABBIT SHOP</p>
         </div>
         <ul class="navList">
             <li>
-                <p class="navText">Accueil</p>
+                <a href="#accueil" class="liensClasse"><p class="navText">Accueil</p></a>
             </li>
             <li>
-                <p class="navText">Boutique</p>
+                <a href="#Boutique" class="liensClasse"><p class="navText">Boutique</p></a>
             </li>
             <li>
-                <p class="navText">Contact</p>
+                <a href="#Contact" class="liensClasse"><p class="navText">Contact</p></a>
             </li>
         </ul>
     </nav>
@@ -43,7 +44,10 @@
         <img src="./assets/img//patternsCaroussel/pattern1.jpg" alt="" id="slide">
         <div id="precedent" onclick="ChangeSlide(-1)"></div>
             <div id="suivant" onclick="ChangeSlide(1)"></div>
-        <div id="titreBox"><h1 id="titre">RABBIT SHOP</h1></div>
+        <div id="titreBox">
+            <h1 id="titre">RABBIT SHOP</h1>
+            <h2 id="titreCommentaire">Cartes à jouer personnalisées</h2>
+        </div>
     </div>
 
     <!-- <div id="titreCadre">
@@ -55,31 +59,35 @@
 
         <div class="cards" id="c1">
             <img src="./assets/img/portraitCards/Falkina.jpg" alt="portrait1" class="imgCard" id="">
-            <p class="textCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, ipsum.</p>
+            <p class="textCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ad tempore vel quod? Accusamus, eius.</p>
             <p class="valeurCard">12 PV</p>
         </div>
 
         <div class="cards" id="c2">
             <img src="./assets/img/portraitCards/Berthold.jpg" alt="portrait2" class="imgCard" id="c2">
-            <p class="textCard">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, quam.</p>
+            <p class="textCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ad tempore vel quod? Accusamus, eius.</p>
             <p class="valeurCard">15 PV</p>
         </div>
 
         <div class="cards" id="c3">
             <img src="./assets/img//portraitCards/Brunhild.jpg" alt="portrait3" class="imgCard" id="c3">
-            <p class="textCard">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, quam.</p>
+            <p class="textCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ad tempore vel quod? Accusamus, eius.</p>
             <p class="valeurCard"> 19PV</p>
         </div>
 
         <div class="cards" id="c4">
             <img src="./assets/img/portraitCards/Gazok.jpg" alt="portrait4" class="imgCard" id="c4">
-            <p class="textCard">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, quam.</p>
+            <p class="textCard">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ad tempore vel quod? Accusamus, eius.</p>
             <p class="valeurCard">24PV</p>
         </div>
-
+        
     </div>
+    <a href="#Boutique" class="liensClasse"><p id="autresCartes">Voir les autres cartes ></p></a>
 
-    <footer></footer>
+    <footer>        
+        <p class="textFooter">© 2022 Rabbit Shop</p>
+        <p class="textFooter">Développement : Romain & Victor</p>
+    </footer>
 
 </body>
 
